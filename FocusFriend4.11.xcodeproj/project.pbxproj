@@ -14,6 +14,11 @@
 		C1D26AB61E9D358000C1CA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D26AB41E9D358000C1CA5D /* LaunchScreen.storyboard */; };
 		C1D26AC11E9D358100C1CA5D /* FocusFriend4_11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AC01E9D358100C1CA5D /* FocusFriend4_11Tests.swift */; };
 		C1D26ACC1E9D358100C1CA5D /* FocusFriend4_11UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26ACB1E9D358100C1CA5D /* FocusFriend4_11UITests.swift */; };
+		C1D26ADE1E9D3B5C00C1CA5D /* StudySessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26ADD1E9D3B5C00C1CA5D /* StudySessionViewController.swift */; };
+		C1D26AE01E9D3B8100C1CA5D /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26ADF1E9D3B8100C1CA5D /* HomePageViewController.swift */; };
+		C1D26AE21E9D3B9300C1CA5D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AE11E9D3B9300C1CA5D /* SettingsViewController.swift */; };
+		C1D26AE41E9D3BAB00C1CA5D /* LeaderboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AE31E9D3BAB00C1CA5D /* LeaderboardTableViewController.swift */; };
+		C1D26AE61E9D3BB900C1CA5D /* RewardsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AE51E9D3BB900C1CA5D /* RewardsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		C1D26AC71E9D358100C1CA5D /* FocusFriend4.11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusFriend4.11UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D26ACB1E9D358100C1CA5D /* FocusFriend4_11UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusFriend4_11UITests.swift; sourceTree = "<group>"; };
 		C1D26ACD1E9D358100C1CA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D26ADD1E9D3B5C00C1CA5D /* StudySessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudySessionViewController.swift; sourceTree = "<group>"; };
+		C1D26ADF1E9D3B8100C1CA5D /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		C1D26AE11E9D3B9300C1CA5D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C1D26AE31E9D3BAB00C1CA5D /* LeaderboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewController.swift; sourceTree = "<group>"; };
+		C1D26AE51E9D3BB900C1CA5D /* RewardsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				C1D26AB21E9D358000C1CA5D /* Assets.xcassets */,
 				C1D26AB41E9D358000C1CA5D /* LaunchScreen.storyboard */,
 				C1D26AB71E9D358000C1CA5D /* Info.plist */,
+				C1D26ADD1E9D3B5C00C1CA5D /* StudySessionViewController.swift */,
+				C1D26ADF1E9D3B8100C1CA5D /* HomePageViewController.swift */,
+				C1D26AE11E9D3B9300C1CA5D /* SettingsViewController.swift */,
+				C1D26AE31E9D3BAB00C1CA5D /* LeaderboardTableViewController.swift */,
+				C1D26AE51E9D3BB900C1CA5D /* RewardsTableViewController.swift */,
 			);
 			path = FocusFriend4.11;
 			sourceTree = "<group>";
@@ -193,6 +208,7 @@
 				TargetAttributes = {
 					C1D26AA71E9D357F00C1CA5D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47S66M4XYD;
 						ProvisioningStyle = Automatic;
 					};
 					C1D26ABB1E9D358100C1CA5D = {
@@ -259,8 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D26AE01E9D3B8100C1CA5D /* HomePageViewController.swift in Sources */,
 				C1D26AAE1E9D358000C1CA5D /* ViewController.swift in Sources */,
 				C1D26AAC1E9D358000C1CA5D /* AppDelegate.swift in Sources */,
+				C1D26AE21E9D3B9300C1CA5D /* SettingsViewController.swift in Sources */,
+				C1D26ADE1E9D3B5C00C1CA5D /* StudySessionViewController.swift in Sources */,
+				C1D26AE61E9D3BB900C1CA5D /* RewardsTableViewController.swift in Sources */,
+				C1D26AE41E9D3BAB00C1CA5D /* LeaderboardTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47S66M4XYD;
 				INFOPLIST_FILE = FocusFriend4.11/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mlopez15.FocusFriend4-11";
@@ -424,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47S66M4XYD;
 				INFOPLIST_FILE = FocusFriend4.11/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mlopez15.FocusFriend4-11";
