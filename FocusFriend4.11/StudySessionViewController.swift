@@ -14,6 +14,14 @@ class StudySessionViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        //Adding icon to navigation bar
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 150, height: 40))
+        imageView.contentMode = .scaleAspectFit
+        let image = UIImage(named: "llogo.png")
+        imageView.image = image
+        navigationItem.titleView = imageView
+        
     }
 
     override func didReceiveMemoryWarning() {

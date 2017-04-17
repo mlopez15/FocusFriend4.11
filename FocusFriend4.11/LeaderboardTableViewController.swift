@@ -18,6 +18,15 @@ class LeaderboardTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+
+        
+        //Adding icon to navigation bar
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 150, height: 40))
+        imageView.contentMode = .scaleAspectFit
+        let image = UIImage(named: "llogo.png")
+        imageView.image = image
+        navigationItem.titleView = imageView
+        
     }
 
     override func didReceiveMemoryWarning() {
