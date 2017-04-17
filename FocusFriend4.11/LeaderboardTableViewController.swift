@@ -137,7 +137,51 @@ class LeaderboardTableViewController: UITableViewController {
             fatalError("Unable to instantiate userE")
         }
         
-        users += [userA, userB, userC, userD, userE]
+        guard let userF = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        guard let userG = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        guard let userH = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        guard let userI = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        guard let userJ = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        guard let userK = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        guard let userL = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        guard let a = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        guard let b = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        guard let c = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        guard let d = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        users += [userA, userB, userC, userD, userE, userF, userG, userH, userI, userJ, userK, userL, a, b, c, d]
     }
 
 }
