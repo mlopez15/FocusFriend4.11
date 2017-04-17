@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C125D4761EA3F40200A1B21F /* llogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C125D4751EA3F40200A1B21F /* llogo.png */; };
+		C1C4326D1EA45374007805B7 /* shirt2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C4326C1EA45374007805B7 /* shirt2.png */; };
+		C1C4326F1EA45379007805B7 /* burrito2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C4326E1EA45379007805B7 /* burrito2.png */; };
+		C1C432711EA4537D007805B7 /* pizza2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C432701EA4537D007805B7 /* pizza2.png */; };
+		C1C432731EA45383007805B7 /* nails2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C432721EA45383007805B7 /* nails2.png */; };
 		C1D26AAC1E9D358000C1CA5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AAB1E9D358000C1CA5D /* AppDelegate.swift */; };
 		C1D26AAE1E9D358000C1CA5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AAD1E9D358000C1CA5D /* ViewController.swift */; };
 		C1D26AB11E9D358000C1CA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D26AAF1E9D358000C1CA5D /* Main.storyboard */; };
@@ -18,7 +23,10 @@
 		C1D26AE01E9D3B8100C1CA5D /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26ADF1E9D3B8100C1CA5D /* HomePageViewController.swift */; };
 		C1D26AE21E9D3B9300C1CA5D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AE11E9D3B9300C1CA5D /* SettingsViewController.swift */; };
 		C1D26AE41E9D3BAB00C1CA5D /* LeaderboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AE31E9D3BAB00C1CA5D /* LeaderboardTableViewController.swift */; };
-		C1D26AE61E9D3BB900C1CA5D /* RewardsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AE51E9D3BB900C1CA5D /* RewardsTableViewController.swift */; };
+		C1D26AE81E9EF8FD00C1CA5D /* RewardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AE71E9EF8FC00C1CA5D /* RewardTableViewCell.swift */; };
+		C1D26AEE1EA1B02F00C1CA5D /* RewardsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AED1EA1B02F00C1CA5D /* RewardsTableViewController.swift */; };
+		C1D26AF01EA1B23200C1CA5D /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AEF1EA1B23100C1CA5D /* Reward.swift */; };
+		C1D26AF21EA1BADF00C1CA5D /* RewardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D26AF11EA1BADF00C1CA5D /* RewardDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C125D4751EA3F40200A1B21F /* llogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llogo.png; sourceTree = "<group>"; };
+		C1C4326C1EA45374007805B7 /* shirt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shirt2.png; sourceTree = "<group>"; };
+		C1C4326E1EA45379007805B7 /* burrito2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burrito2.png; sourceTree = "<group>"; };
+		C1C432701EA4537D007805B7 /* pizza2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza2.png; sourceTree = "<group>"; };
+		C1C432721EA45383007805B7 /* nails2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nails2.png; sourceTree = "<group>"; };
 		C1D26AA81E9D357F00C1CA5D /* FocusFriend4.11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusFriend4.11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D26AAB1E9D358000C1CA5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1D26AAD1E9D358000C1CA5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +69,10 @@
 		C1D26ADF1E9D3B8100C1CA5D /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		C1D26AE11E9D3B9300C1CA5D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C1D26AE31E9D3BAB00C1CA5D /* LeaderboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewController.swift; sourceTree = "<group>"; };
-		C1D26AE51E9D3BB900C1CA5D /* RewardsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsTableViewController.swift; sourceTree = "<group>"; };
+		C1D26AE71E9EF8FC00C1CA5D /* RewardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardTableViewCell.swift; sourceTree = "<group>"; };
+		C1D26AED1EA1B02F00C1CA5D /* RewardsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsTableViewController.swift; sourceTree = "<group>"; };
+		C1D26AEF1EA1B23100C1CA5D /* Reward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		C1D26AF11EA1BADF00C1CA5D /* RewardDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RewardDetails.swift; path = ../RewardDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,17 +123,25 @@
 		C1D26AAA1E9D357F00C1CA5D /* FocusFriend4.11 */ = {
 			isa = PBXGroup;
 			children = (
+				C125D4751EA3F40200A1B21F /* llogo.png */,
+				C1C4326E1EA45379007805B7 /* burrito2.png */,
+				C1C432721EA45383007805B7 /* nails2.png */,
+				C1C432701EA4537D007805B7 /* pizza2.png */,
+				C1C4326C1EA45374007805B7 /* shirt2.png */,
 				C1D26AAB1E9D358000C1CA5D /* AppDelegate.swift */,
 				C1D26AAD1E9D358000C1CA5D /* ViewController.swift */,
 				C1D26AAF1E9D358000C1CA5D /* Main.storyboard */,
 				C1D26AB21E9D358000C1CA5D /* Assets.xcassets */,
 				C1D26AB41E9D358000C1CA5D /* LaunchScreen.storyboard */,
 				C1D26AB71E9D358000C1CA5D /* Info.plist */,
+				C1D26AF11EA1BADF00C1CA5D /* RewardDetails.swift */,
 				C1D26ADD1E9D3B5C00C1CA5D /* StudySessionViewController.swift */,
 				C1D26ADF1E9D3B8100C1CA5D /* HomePageViewController.swift */,
 				C1D26AE11E9D3B9300C1CA5D /* SettingsViewController.swift */,
 				C1D26AE31E9D3BAB00C1CA5D /* LeaderboardTableViewController.swift */,
-				C1D26AE51E9D3BB900C1CA5D /* RewardsTableViewController.swift */,
+				C1D26AED1EA1B02F00C1CA5D /* RewardsTableViewController.swift */,
+				C1D26AEF1EA1B23100C1CA5D /* Reward.swift */,
+				C1D26AE71E9EF8FC00C1CA5D /* RewardTableViewCell.swift */,
 			);
 			path = FocusFriend4.11;
 			sourceTree = "<group>";
@@ -248,9 +272,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C4326D1EA45374007805B7 /* shirt2.png in Resources */,
 				C1D26AB61E9D358000C1CA5D /* LaunchScreen.storyboard in Resources */,
+				C1C4326F1EA45379007805B7 /* burrito2.png in Resources */,
 				C1D26AB31E9D358000C1CA5D /* Assets.xcassets in Resources */,
+				C1C432711EA4537D007805B7 /* pizza2.png in Resources */,
 				C1D26AB11E9D358000C1CA5D /* Main.storyboard in Resources */,
+				C1C432731EA45383007805B7 /* nails2.png in Resources */,
+				C125D4761EA3F40200A1B21F /* llogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +305,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1D26AE01E9D3B8100C1CA5D /* HomePageViewController.swift in Sources */,
+				C1D26AF01EA1B23200C1CA5D /* Reward.swift in Sources */,
 				C1D26AAE1E9D358000C1CA5D /* ViewController.swift in Sources */,
+				C1D26AF21EA1BADF00C1CA5D /* RewardDetails.swift in Sources */,
 				C1D26AAC1E9D358000C1CA5D /* AppDelegate.swift in Sources */,
 				C1D26AE21E9D3B9300C1CA5D /* SettingsViewController.swift in Sources */,
+				C1D26AEE1EA1B02F00C1CA5D /* RewardsTableViewController.swift in Sources */,
+				C1D26AE81E9EF8FD00C1CA5D /* RewardTableViewCell.swift in Sources */,
 				C1D26ADE1E9D3B5C00C1CA5D /* StudySessionViewController.swift in Sources */,
-				C1D26AE61E9D3BB900C1CA5D /* RewardsTableViewController.swift in Sources */,
 				C1D26AE41E9D3BAB00C1CA5D /* LeaderboardTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +560,7 @@
 				C1D26AD21E9D358100C1CA5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1D26AD31E9D358100C1CA5D /* Build configuration list for PBXNativeTarget "FocusFriend4.11Tests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +569,7 @@
 				C1D26AD51E9D358100C1CA5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1D26AD61E9D358100C1CA5D /* Build configuration list for PBXNativeTarget "FocusFriend4.11UITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +578,7 @@
 				C1D26AD81E9D358100C1CA5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
