@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		227AA3681EA55E86009E2698 /* LBUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227AA3671EA55E86009E2698 /* LBUsers.swift */; };
+		227AA36A1EA5670F009E2698 /* LeaderBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227AA3691EA5670F009E2698 /* LeaderBoardTableViewCell.swift */; };
 		C125D4761EA3F40200A1B21F /* llogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C125D4751EA3F40200A1B21F /* llogo.png */; };
 		C1C4326D1EA45374007805B7 /* shirt2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C4326C1EA45374007805B7 /* shirt2.png */; };
 		C1C4326F1EA45379007805B7 /* burrito2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C4326E1EA45379007805B7 /* burrito2.png */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		227AA3671EA55E86009E2698 /* LBUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBUsers.swift; sourceTree = "<group>"; };
+		227AA3691EA5670F009E2698 /* LeaderBoardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardTableViewCell.swift; sourceTree = "<group>"; };
 		C125D4751EA3F40200A1B21F /* llogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llogo.png; sourceTree = "<group>"; };
 		C1C4326C1EA45374007805B7 /* shirt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shirt2.png; sourceTree = "<group>"; };
 		C1C4326E1EA45379007805B7 /* burrito2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burrito2.png; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 				C1D26AE31E9D3BAB00C1CA5D /* LeaderboardTableViewController.swift */,
 				C1D26AED1EA1B02F00C1CA5D /* RewardsTableViewController.swift */,
 				C1D26AEF1EA1B23100C1CA5D /* Reward.swift */,
+				227AA3671EA55E86009E2698 /* LBUsers.swift */,
+				227AA3691EA5670F009E2698 /* LeaderBoardTableViewCell.swift */,
 				C1D26AE71E9EF8FC00C1CA5D /* RewardTableViewCell.swift */,
 			);
 			path = FocusFriend4.11;
@@ -306,8 +312,10 @@
 			files = (
 				C1D26AE01E9D3B8100C1CA5D /* HomePageViewController.swift in Sources */,
 				C1D26AF01EA1B23200C1CA5D /* Reward.swift in Sources */,
+				227AA3681EA55E86009E2698 /* LBUsers.swift in Sources */,
 				C1D26AAE1E9D358000C1CA5D /* ViewController.swift in Sources */,
 				C1D26AF21EA1BADF00C1CA5D /* RewardDetails.swift in Sources */,
+				227AA36A1EA5670F009E2698 /* LeaderBoardTableViewCell.swift in Sources */,
 				C1D26AAC1E9D358000C1CA5D /* AppDelegate.swift in Sources */,
 				C1D26AE21E9D3B9300C1CA5D /* SettingsViewController.swift in Sources */,
 				C1D26AEE1EA1B02F00C1CA5D /* RewardsTableViewController.swift in Sources */,

@@ -9,6 +9,8 @@
 import UIKit
 
 class LeaderboardTableViewController: UITableViewController {
+    
+    var users = [LBUser]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +20,9 @@ class LeaderboardTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-
+        
+        
+        loadsample()
         
         //Adding icon to navigation bar
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 150, height: 40))
@@ -38,23 +42,34 @@ class LeaderboardTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return users.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        
+        //let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        // Table view cells are reused and should be dequeued using a cell identifier.
+        let cellIdentifier = "LeaderBoardTableViewCell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? LeaderBoardTableViewCell else {
+            fatalError("The dequeued cell is not an instance of LeaderBoardTableViewCell.")
+        }
+        
+        let user = users[indexPath.row]
+        
+        
+        cell.UserName.text = user.name
+        cell.UserScore.text = user.score
+        
         return cell
     }
-    */
+ 
 
     /*
     // Override to support conditional editing of the table view.
@@ -100,5 +115,29 @@ class LeaderboardTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func loadsample(){
+        guard let userA = LBUser(name: "Ethan ", score: "69") else{
+            fatalError("Unable to instantiate userA")
+        }
+        
+        guard let userB = LBUser(name: "Maria", score: "311") else{
+            fatalError("Unable to instantiate userB")
+        }
+        
+        guard let userC = LBUser(name: "Madeeee", score: "420") else{
+            fatalError("Unable to instantiate userC")
+        }
+        
+        guard let userD = LBUser(name: "Mitch", score: "711") else{
+            fatalError("Unable to instantiate userD")
+        }
+        
+        guard let userE = LBUser(name: "Jack", score: "9999") else{
+            fatalError("Unable to instantiate userE")
+        }
+        
+        users += [userA, userB, userC, userD, userE]
+    }
 
 }
